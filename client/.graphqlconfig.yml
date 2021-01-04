@@ -1,0 +1,15 @@
+projects:
+  cdk-notes-appsync-api:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: us-east-2
+        apiId: l2va7hg3zvgjtcved7dfvkuqjy
+        maxDepth: 2
